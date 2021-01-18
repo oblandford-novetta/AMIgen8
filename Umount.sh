@@ -5,7 +5,7 @@
 #
 #################################################################
 PROGNAME=$(basename "$0")
-CHROOT="${CHROOT:-/mnt/ec2-root1}"
+CHROOT="${AMIGENCHROOT:-/mnt/ec2-root1}"
 DEBUG="${DEBUG:-UNDEF}"
 TARGDISK="${TARGDISK:-UNDEF}"
 
