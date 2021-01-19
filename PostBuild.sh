@@ -5,7 +5,7 @@ set -eu -o pipefail
 #
 #######################################################################
 PROGNAME=$(basename "$0")
-CHROOTMNT="${CHROOT:-/mnt/ec2-root}"
+CHROOTMNT="${CHROOT}"
 DEBUG="${DEBUG:-UNDEF}"
 FIPSDISABLE="${FIPSDISABLE:-UNDEF}"
 MAINTUSR="${MAINTUSR:-"maintuser"}"

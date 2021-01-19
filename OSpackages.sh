@@ -5,7 +5,7 @@ set -eu -o pipefail
 #
 #######################################################################
 PROGNAME=$(basename "$0")
-CHROOTMNT="${AMIGENCHROOT:-/mnt/ec2-root2}"
+CHROOTMNT="${CHROOT}"
 DEBUG="${DEBUG:-UNDEF}"
 MINXTRAPKGS=(
       chrony
